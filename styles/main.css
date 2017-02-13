@@ -64,6 +64,16 @@ p {
   margin-bottom: 20px;
   border-radius: 14px; }
 
+#about .about-block p {
+  font-size: 1.4em; }
+
+#about a {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #FFF;
+  transition: all 0.3s ease-in-out; }
+  #about a:hover {
+    color: #232222; }
+
 #video {
   margin-top: 4em;
   margin-bottom: 4em; }
@@ -146,12 +156,17 @@ p {
 
 #team .team-member {
   margin: 20px; }
+  #team .team-member h4 {
+    text-decoration: underline; }
   #team .team-member .text-content {
     width: 75%;
+    text-align: center;
     margin: auto; }
 
 #contact {
   margin-top: 0px; }
+  #contact .logo {
+    width: 260px; }
   #contact .icons {
     text-align: center; }
     #contact .icons li {
@@ -166,6 +181,7 @@ p {
         display: inline;
         width: 10%; }
   #contact .contact-form .form-control {
+    display: inline-block;
     background-color: transparent;
     border-radius: 0px;
     border: 1px solid #232222; }
