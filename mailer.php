@@ -21,7 +21,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "angrydemonstudio@outlook.com";
+        $recipient = "info@angrydemon.studio";
 
         // Set the email subject.
         $subject = "New e-mail from unforgiving game website!";
