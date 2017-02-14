@@ -102,6 +102,7 @@ p {
     box-shadow: 2px 2px 4px #000; }
 
 #subscribe {
+  margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0px; }
   #subscribe .top {
