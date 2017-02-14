@@ -18,7 +18,6 @@ html, body {
   color: #000; }
 
 h1 {
-  font-size: 5em;
   text-transform: uppercase;
   color: #000; }
 
@@ -176,7 +175,6 @@ p {
     margin: auto; }
 
 #contact {
-  margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0px; }
   #contact .logo {
