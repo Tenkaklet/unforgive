@@ -29,6 +29,7 @@ p {
   line-height: 1.7; }
 
 .unforgiving-nav {
+  box-shadow: 2px 2px 4px #000;
   border: none;
   background-color: #060e08; }
   .unforgiving-nav img.icon-image {
