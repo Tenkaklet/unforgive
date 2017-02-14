@@ -29,19 +29,17 @@ p {
 
 .unforgiving-nav {
   border: none;
-  background-color: transparent; }
-  .unforgiving-nav .navbar-right {
-    background-color: #000; }
-    .unforgiving-nav .navbar-right li a {
-      font-family: "l-regular";
-      color: #FFF;
-      transition: all 0.3s ease-in-out; }
-      .unforgiving-nav .navbar-right li a:hover {
-        color: #232222; }
-      .unforgiving-nav .navbar-right li a img.icon-image {
-        width: 20px; }
-      .unforgiving-nav .navbar-right li a i {
-        color: #FFF; }
+  background-color: #000; }
+  .unforgiving-nav img.icon-image {
+    width: 20px; }
+  .unforgiving-nav i {
+    color: #FFF; }
+  .unforgiving-nav .navbar-right li a {
+    font-family: "l-regular";
+    color: #FFF;
+    transition: all 0.3s ease-in-out; }
+    .unforgiving-nav .navbar-right li a:hover {
+      color: #232222; }
 
 .top-header {
   display: flex;
