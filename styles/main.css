@@ -175,10 +175,12 @@ p {
     margin: auto; }
 
 #contact {
-  margin-bottom: 0px;
   padding-bottom: 0px; }
   #contact .logo {
     width: 260px; }
+  @media screen and (min-width: 400px) {
+    #contact {
+      margin-bottom: 0px; } }
   #contact .icons {
     text-align: center; }
     #contact .icons li {
