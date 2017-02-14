@@ -62,12 +62,11 @@ $(function () {
 
           })
           .done(function(response) {
-            console.log(response);
+
               mailStatus.text(response.msg);
           })
           .fail(function(data) {
-            console.log(data);
-              mailStatus.text(messages.failure);
+              mailStatus.text(data.msg);
 
           });
 
