@@ -134,7 +134,7 @@ p {
       transition: all 0.2s ease-in-out; }
       @media screen and (max-width: 500px) {
         #subscribe .unforgive-form .form-control {
-          width: 18em; } }
+          width: 22.5em; } }
       #subscribe .unforgive-form .form-control:focus {
         outline: none;
         box-shadow: none; }
