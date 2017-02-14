@@ -16,11 +16,7 @@ $(function () {
 
 
 
-  $('#slides').slidesjs({
-    width: 940,
-    height: 400,
-    navigation: false
-  });
+  
 
   var lightbox = $('#slides a').simpleLightbox();
 

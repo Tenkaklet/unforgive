@@ -29,9 +29,10 @@ p {
 
 .unforgiving-nav {
   border: none;
-  background-color: #000; }
+  background-color: #060e08; }
   .unforgiving-nav img.icon-image {
-    width: 20px; }
+    width: auto;
+    height: 20px; }
   .unforgiving-nav i {
     color: #FFF; }
   .unforgiving-nav .navbar-right li a {
@@ -82,35 +83,21 @@ p {
     font-weight: bold; }
 
 #video {
-  margin-top: 4em;
+  margin-top: 14em;
   margin-bottom: 4em; }
+  #video .video {
+    padding: 20px 0px; }
 
-#screenshots #slides a.slidesjs-navigation i {
-  margin-top: 1%;
-  margin-right: 1%;
-  color: #333;
-  font-size: 2em; }
-
-#screenshots #slides .slidesjs-pagination {
-  margin: 6px 0 0;
-  float: right;
-  list-style: none; }
-  #screenshots #slides .slidesjs-pagination li {
-    float: left;
-    margin: 0 1px; }
-  #screenshots #slides .slidesjs-pagination a {
-    display: block;
-    width: 13px;
-    height: 0;
-    padding-top: 13px;
-    background-image: url("../images/pagination.png");
-    background-position: 0 0;
-    float: left;
-    overflow: hidden; }
-    #screenshots #slides .slidesjs-pagination a:link, #screenshots #slides .slidesjs-pagination a:visited {
-      color: #333; }
-    #screenshots #slides .slidesjs-pagination a.active {
-      background-position: 0 -13px; }
+#screenshots #slides a img {
+  width: 100%;
+  border-radius: 6px;
+  margin: 10px;
+  transition: all 0.2s ease-in-out; }
+  @media screen and (max-width: 500px) {
+    #screenshots #slides a img {
+      width: 80%; } }
+  #screenshots #slides a img:hover {
+    box-shadow: 2px 2px 4px #000; }
 
 #subscribe {
   margin-bottom: 0px;
@@ -156,21 +143,23 @@ p {
           text-align: center;
           width: 100%; } }
 
-@media screen and (max-width: 400px) {
-  #team {
-    margin-top: 20rem; } }
-
-#team h1 {
-  margin-bottom: 1.2em; }
-
-#team .team-member {
-  margin: 20px; }
-  #team .team-member h4 {
-    text-decoration: underline; }
-  #team .team-member .text-content {
-    width: 75%;
-    text-align: center;
-    margin: auto; }
+#team {
+  margin-top: 0px;
+  padding-top: 20px; }
+  #team h1 {
+    margin-bottom: 1.2em; }
+  #team .team-member {
+    margin: 20px; }
+    #team .team-member h4 {
+      text-decoration: underline;
+      padding-bottom: 2px; }
+      #team .team-member h4 span.name {
+        font-weight: bolder;
+        color: #FFF; }
+    #team .team-member .text-content {
+      width: 75%;
+      text-align: left;
+      margin: auto; }
 
 #contact {
   padding-bottom: 0px; }
@@ -214,11 +203,16 @@ p {
         border-radius: 2px; }
 
 footer {
-  background-color: #232222;
+  background-color: #060e08;
   padding: 10px; }
   footer p {
     margin: 0px;
+    font-size: 10px;
     color: #FFF; }
+    footer p a {
+      color: #FFF; }
+      footer p a:hover {
+        color: #F3f3f3; }
 
 .form-control::-webkit-input-placeholder {
   /* Chrome */
@@ -252,7 +246,7 @@ footer {
 
 .black {
   background-color: #000; }
-  .black p, .black h1 {
+  .black p, .black h1, .black h2, .black h3, .black h4, .black h5, .black h6 {
     color: #FFF; }
 
 .sl-overlay {
@@ -265,5 +259,8 @@ footer {
 
 .status {
   margin-top: 10px; }
+
+.mar-down {
+  margin-top: 40px; }
 
 /*# sourceMappingURL=main.css.map */
