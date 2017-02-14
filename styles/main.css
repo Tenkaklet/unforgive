@@ -263,4 +263,7 @@ footer {
   .sl-wrapper .sl-navigation button:focus {
     outline: none; }
 
+.status {
+  margin-top: 10px; }
+
 /*# sourceMappingURL=main.css.map */

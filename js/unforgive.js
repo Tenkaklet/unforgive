@@ -46,10 +46,6 @@ $(function () {
       success: "Thank you! You're E-mail has been sent",
       failure: "Sorry please try again..."
   };
-
-  var subFormData = {
-    email: $('#mce-EMAIL').val()
-  };
   $(subform).submit(function(event) {
     console.log(subform);
       if (event) event.preventDefault(); {
@@ -59,7 +55,7 @@ $(function () {
           $.ajax({
               type: form.attr('method'),
               url: form.attr('action'),
-              data: subFormData,
+              data: form.serialize(),
               cache: false,
               dataType: 'json',
               contentType: "application/json; charset=utf-8",
@@ -67,7 +63,7 @@ $(function () {
           })
           .done(function(response) {
             console.log(response);
-              mailStatus.text(messages.success);
+              mailStatus.text(response.msg);
           })
           .fail(function(data) {
             console.log(data);
