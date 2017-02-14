@@ -134,9 +134,9 @@ p {
       color: #262424;
       background-color: transparent;
       transition: all 0.2s ease-in-out; }
-      @media screen and (max-width: 400px) {
+      @media screen and (max-width: 500px) {
         #subscribe .unforgive-form .form-control {
-          width: 100%; } }
+          width: 18em; } }
       #subscribe .unforgive-form .form-control:focus {
         outline: none;
         box-shadow: none; }
@@ -150,7 +150,7 @@ p {
         background-color: #232222;
         box-shadow: 2px 3px 4px #232222;
         border-radius: 2px; }
-      @media screen and (max-width: 400px) {
+      @media screen and (max-width: 500px) {
         #subscribe .unforgive-form .btn-submit {
           display: block;
           padding: 13px;
@@ -194,23 +194,26 @@ p {
       #contact .icons li .icon-image {
         display: inline;
         width: 10%; }
-  #contact .contact-form .form-control {
-    display: inline-block;
-    background-color: transparent;
-    border-radius: 0px;
-    border: 1px solid #232222; }
-  #contact .contact-form #checker {
-    width: 25%; }
-  #contact .contact-form .btn-submit {
-    background-color: transparent;
-    border: 2px solid #232222;
-    border-radius: 0px;
-    color: #EDEDED;
-    transition: all 0.2s ease-in-out; }
-    #contact .contact-form .btn-submit:hover {
-      background-color: #232222;
-      box-shadow: 2px 3px 4px #232222;
-      border-radius: 2px; }
+  #contact .contact-form {
+    width: 100%;
+    padding: 10px; }
+    #contact .contact-form .form-control {
+      display: inline-block;
+      background-color: transparent;
+      border-radius: 0px;
+      border: 1px solid #232222; }
+    #contact .contact-form #checker {
+      width: 25%; }
+    #contact .contact-form .btn-submit {
+      background-color: transparent;
+      border: 2px solid #232222;
+      border-radius: 0px;
+      color: #EDEDED;
+      transition: all 0.2s ease-in-out; }
+      #contact .contact-form .btn-submit:hover {
+        background-color: #232222;
+        box-shadow: 2px 3px 4px #232222;
+        border-radius: 2px; }
 
 footer {
   background-color: #232222;
