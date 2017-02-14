@@ -25,7 +25,8 @@ p {
   color: #000;
   font-weight: 300;
   font-size: 1.2em;
-  font-family: "l-regular"; }
+  font-family: "l-regular";
+  line-height: 1.7; }
 
 .unforgiving-nav {
   border: none;
@@ -69,7 +70,7 @@ p {
 
 #about .about-block img {
   margin-bottom: 20px;
-  border-radius: 14px; }
+  border-radius: 4px; }
 
 #about .about-block p {
   font-size: 1.4em; }
