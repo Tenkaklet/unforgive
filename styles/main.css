@@ -1,20 +1,23 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400");
 @font-face {
-  src: url("../fonts/Flow.otf");
-  font-family: 'Flow'; }
+  src: url("../fonts/l-bold.ttf");
+  font-family: 'l-Bold'; }
+
+@font-face {
+  src: url("../fonts/l-regular.ttf");
+  font-family: 'l-regular'; }
 
 html, body {
   background: #8c8082;
   /* For browsers that do not support gradients */
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  color: #000; }
 
 * {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "l-regular";
   color: #000; }
 
 h1 {
-  font-family: 'Flow';
   font-size: 5em;
   text-transform: uppercase;
   color: #000; }
@@ -23,17 +26,23 @@ p {
   color: #000;
   font-weight: 300;
   font-size: 1.2em;
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "l-regular"; }
 
 .unforgiving-nav {
   border: none;
   background-color: transparent; }
-  .unforgiving-nav .navbar-right li a {
-    font-family: "Source Sans Pro", sans-serif;
-    color: #FFF;
-    transition: all 0.3s ease-in-out; }
-    .unforgiving-nav .navbar-right li a:hover {
-      color: #232222; }
+  .unforgiving-nav .navbar-right {
+    background-color: #000; }
+    .unforgiving-nav .navbar-right li a {
+      font-family: "l-regular";
+      color: #FFF;
+      transition: all 0.3s ease-in-out; }
+      .unforgiving-nav .navbar-right li a:hover {
+        color: #232222; }
+      .unforgiving-nav .navbar-right li a img.icon-image {
+        width: 20px; }
+      .unforgiving-nav .navbar-right li a i {
+        color: #FFF; }
 
 .top-header {
   display: flex;
@@ -68,11 +77,12 @@ p {
   font-size: 1.4em; }
 
 #about a {
-  font-family: "Source Sans Pro", sans-serif;
-  color: #FFF;
+  font-family: "l-regular";
+  color: #d1cccc;
   transition: all 0.3s ease-in-out; }
   #about a:hover {
-    color: #232222; }
+    color: #FFF;
+    font-weight: bold; }
 
 #video {
   margin-top: 4em;
@@ -105,47 +115,49 @@ p {
     #screenshots #slides .slidesjs-pagination a.active {
       background-position: 0 -13px; }
 
-#subscribe .top {
-  width: 50%;
-  margin: auto; }
-
-#subscribe .unforgive-form {
-  margin: auto;
-  width: 50%;
-  padding: 15px; }
-  @media screen and (max-width: 400px) {
-    #subscribe .unforgive-form {
-      width: 100%; } }
-  #subscribe .unforgive-form .form-control {
-    border-radius: 0px;
-    border: 2px solid #232222;
-    width: 30em;
-    color: #262424;
-    background-color: transparent;
-    transition: all 0.2s ease-in-out; }
+#subscribe {
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
+  #subscribe .top {
+    width: 50%;
+    margin: auto; }
+  #subscribe .unforgive-form {
+    margin: auto;
+    width: 50%;
+    padding: 15px; }
     @media screen and (max-width: 400px) {
-      #subscribe .unforgive-form .form-control {
+      #subscribe .unforgive-form {
         width: 100%; } }
-    #subscribe .unforgive-form .form-control:focus {
-      outline: none;
-      box-shadow: none; }
-  #subscribe .unforgive-form .btn-submit {
-    background-color: transparent;
-    border: 2px solid #232222;
-    border-radius: 0px;
-    color: #EDEDED;
-    transition: all 0.2s ease-in-out; }
-    #subscribe .unforgive-form .btn-submit:hover {
-      background-color: #232222;
-      box-shadow: 2px 3px 4px #232222;
-      border-radius: 2px; }
-    @media screen and (max-width: 400px) {
-      #subscribe .unforgive-form .btn-submit {
-        display: block;
-        padding: 13px;
-        margin-top: 1em;
-        text-align: center;
-        width: 100%; } }
+    #subscribe .unforgive-form .form-control {
+      border-radius: 0px;
+      border: 2px solid #232222;
+      width: 30em;
+      color: #262424;
+      background-color: transparent;
+      transition: all 0.2s ease-in-out; }
+      @media screen and (max-width: 400px) {
+        #subscribe .unforgive-form .form-control {
+          width: 100%; } }
+      #subscribe .unforgive-form .form-control:focus {
+        outline: none;
+        box-shadow: none; }
+    #subscribe .unforgive-form .btn-submit {
+      background-color: transparent;
+      border: 2px solid #232222;
+      border-radius: 0px;
+      color: #EDEDED;
+      transition: all 0.2s ease-in-out; }
+      #subscribe .unforgive-form .btn-submit:hover {
+        background-color: #232222;
+        box-shadow: 2px 3px 4px #232222;
+        border-radius: 2px; }
+      @media screen and (max-width: 400px) {
+        #subscribe .unforgive-form .btn-submit {
+          display: block;
+          padding: 13px;
+          margin-top: 1em;
+          text-align: center;
+          width: 100%; } }
 
 @media screen and (max-width: 400px) {
   #team {
@@ -164,7 +176,9 @@ p {
     margin: auto; }
 
 #contact {
-  margin-top: 0px; }
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
   #contact .logo {
     width: 260px; }
   #contact .icons {
@@ -234,5 +248,18 @@ footer {
 .success, .error {
   font-size: 13px;
   margin-bottom: 10px; }
+
+.black {
+  background-color: #000; }
+  .black p, .black h1 {
+    color: #FFF; }
+
+.sl-overlay {
+  background-color: #000; }
+
+.sl-wrapper .sl-navigation button {
+  color: #FFF; }
+  .sl-wrapper .sl-navigation button:focus {
+    outline: none; }
 
 /*# sourceMappingURL=main.css.map */

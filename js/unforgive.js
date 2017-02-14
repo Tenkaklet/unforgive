@@ -15,13 +15,16 @@ $(function () {
 
 
 
+
   $('#slides').slidesjs({
     width: 940,
     height: 400,
     navigation: false
   });
 
-  $('.navbar-right a').on('click', function(event) {
+  var lightbox = $('#slides a').simpleLightbox();
+
+  $('.navbar-right a.link').on('click', function(event) {
       event.preventDefault();
 
       var hash = this.hash;
@@ -59,9 +62,11 @@ $(function () {
 
           })
           .done(function(response) {
+            console.log(response);
               mailStatus.text(messages.success);
           })
           .fail(function(data) {
+            console.log(data);
               mailStatus.text(messages.failure);
 
           });
