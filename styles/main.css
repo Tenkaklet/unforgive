@@ -56,7 +56,9 @@ p {
   height: 100%; }
   @media screen and (max-width: 500px) {
     .top-header {
-      background-size: 100% 90%; } }
+      background-position: 10%;
+      background-size: 100% 50%;
+      background-repeat: no-repeat; } }
   .top-header .icons {
     text-align: center; }
     .top-header .icons li {
