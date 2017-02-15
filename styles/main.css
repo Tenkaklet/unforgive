@@ -142,7 +142,7 @@ p {
       box-shadow: none; }
   #subscribe .unforgive-form .btn-submit {
     background-color: transparent;
-    border: 2px solid #232222;
+    border: 2px solid #FFF;
     border-radius: 0px;
     color: #EDEDED;
     transition: all 0.2s ease-in-out; }
