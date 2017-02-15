@@ -6,6 +6,10 @@
   src: url("../fonts/l-regular.ttf");
   font-family: 'l-regular'; }
 
+html {
+  width: 100%;
+  height: 100%; }
+
 html, body {
   background: #8c8082;
   /* For browsers that do not support gradients */
@@ -46,13 +50,13 @@ p {
       color: #232222; }
 
 .top-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: url("../images/header_img.png");
+  background-size: cover;
+  background-position: center center;
   height: 100%; }
-  .top-header img {
-    width: 60%;
-    margin-bottom: 20px; }
+  @media screen and (max-width: 500px) {
+    .top-header {
+      background-size: 100% 90%; } }
   .top-header .icons {
     text-align: center; }
     .top-header .icons li {
