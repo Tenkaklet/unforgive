@@ -67,23 +67,22 @@ p {
         display: inline;
         width: 10%; }
 
-#about h1 {
-  margin-bottom: 4%; }
-
-#about .about-block img {
-  margin-bottom: 20px;
-  border-radius: 4px; }
-
-#about .about-block p {
-  font-size: 1.4em; }
-
-#about a {
-  font-family: "l-regular";
-  color: #d1cccc;
-  transition: all 0.3s ease-in-out; }
-  #about a:hover {
-    color: #FFF;
-    font-weight: bold; }
+#about {
+  margin-top: 0px; }
+  #about h1 {
+    margin-bottom: 4%; }
+  #about .about-block img {
+    margin-bottom: 20px;
+    border-radius: 4px; }
+  #about .about-block p {
+    font-size: 1.4em; }
+  #about a {
+    font-family: "l-regular";
+    color: #d1cccc;
+    transition: all 0.3s ease-in-out; }
+    #about a:hover {
+      color: #FFF;
+      font-weight: bold; }
 
 #video {
   margin-top: 14em;

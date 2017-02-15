@@ -5,13 +5,6 @@ $(function () {
       $('.collapse').toggleClass('in');
   });
 
-  $(window).scroll(function () {
-    var scrollTop = $(window).scrollTop();
-    var height = $(window).height();
-    $('.top-header').css({
-        'opacity': ((height - scrollTop) / height)
-    });
-});
 
 
 
