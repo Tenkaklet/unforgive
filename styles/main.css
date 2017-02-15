@@ -15,7 +15,7 @@ html, body {
 
 * {
   font-family: "eras";
-  color: #000; }
+  color: #FFF; }
 
 h1 {
   text-transform: uppercase;
@@ -89,6 +89,7 @@ p {
   margin-top: 14em;
   margin-bottom: 4em; }
   #video h1 {
+    color: #FFF;
     font-weight: bolder; }
   #video .video {
     padding: 20px 0px 30px 0px; }
@@ -108,9 +109,11 @@ p {
     box-shadow: 5px 5px 10px #000; }
 
 #subscribe h1 {
-  font-weight: bolder; }
+  font-weight: bolder;
+  color: #FFF; }
 
 #subscribe p {
+  color: #FFF;
   font-weight: bolder; }
 
 #subscribe .top {
@@ -126,9 +129,9 @@ p {
       width: 100%; } }
   #subscribe .unforgive-form .form-control {
     border-radius: 0px;
-    border: 2px solid #232222;
+    border: 2px solid #FFF;
     width: 30em;
-    color: #262424;
+    color: #FFF;
     background-color: transparent;
     transition: all 0.2s ease-in-out; }
     @media screen and (max-width: 500px) {
@@ -179,8 +182,10 @@ p {
 #contact {
   padding-bottom: 0px; }
   #contact h1 {
-    font-weight: bolder; }
+    font-weight: bolder;
+    color: #FFF; }
   #contact p {
+    color: #FFF;
     font-weight: bolder; }
   #contact .logo {
     width: 260px; }
@@ -194,7 +199,7 @@ p {
       margin-right: 1em;
       display: inline; }
       #contact .icons li i {
-        color: #000000;
+        color: #FFF;
         font-size: 40px;
         vertical-align: middle; }
       #contact .icons li .icon-image {
@@ -237,22 +242,22 @@ footer {
 
 .form-control::-webkit-input-placeholder {
   /* Chrome */
-  color: #262424;
+  color: #FFF;
   font-weight: bold; }
 
 .form-control:-ms-input-placeholder {
   /* IE 10+ */
-  color: #262424;
+  color: #FFF;
   font-weight: bold; }
 
 .form-control::-moz-placeholder {
   /* Firefox 19+ */
-  color: #262424;
+  color: #FFF;
   font-weight: bold; }
 
 .form-control:-moz-placeholder {
   /* Firefox 4 - 18 */
-  color: #262424;
+  color: #FFF;
   font-weight: bold; }
 
 .space-8 {
