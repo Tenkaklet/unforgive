@@ -8,7 +8,7 @@ $(function () {
   $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
     var height = $(window).height();
-    $('.top-header, .icons').css({
+    $('.top-header').css({
         'opacity': ((height - scrollTop) / height)
     });
 });
@@ -16,7 +16,7 @@ $(function () {
 
 
 
-  
+
 
   var lightbox = $('#slides a').simpleLightbox();
 
@@ -31,7 +31,7 @@ $(function () {
       });
   });
 
-  var relax = new Rellax('.rellax');
+
 
 
   // Mailchimp

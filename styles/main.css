@@ -34,9 +34,10 @@ p {
   background-color: #060e08; }
   .unforgiving-nav img.icon-image {
     width: auto;
-    height: 20px; }
+    height: 25px; }
   .unforgiving-nav i {
-    color: #FFF; }
+    color: #FFF;
+    font-size: 20px; }
   .unforgiving-nav .navbar-right li a {
     font-family: "l-regular";
     color: #FFF;
@@ -88,7 +89,7 @@ p {
   margin-top: 14em;
   margin-bottom: 4em; }
   #video .video {
-    padding: 20px 0px; }
+    padding: 20px 0px 30px 0px; }
 
 #screenshots #slides a img {
   width: 100%;
@@ -99,70 +100,65 @@ p {
     #screenshots #slides a img {
       width: 80%; } }
   #screenshots #slides a img:hover {
-    box-shadow: 2px 2px 4px #000; }
+    box-shadow: 5px 5px 10px #000; }
 
-#subscribe {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 0px; }
-  #subscribe .top {
-    width: 50%;
-    margin: auto; }
-  #subscribe .unforgive-form {
-    margin: auto;
-    width: 50%;
-    padding: 15px; }
-    @media screen and (max-width: 400px) {
-      #subscribe .unforgive-form {
+#subscribe .top {
+  width: 50%;
+  margin: auto; }
+
+#subscribe .unforgive-form {
+  margin: auto;
+  width: 50%;
+  padding: 15px; }
+  @media screen and (max-width: 400px) {
+    #subscribe .unforgive-form {
+      width: 100%; } }
+  #subscribe .unforgive-form .form-control {
+    border-radius: 0px;
+    border: 2px solid #232222;
+    width: 30em;
+    color: #262424;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out; }
+    @media screen and (max-width: 500px) {
+      #subscribe .unforgive-form .form-control {
+        width: 22.5em; } }
+    #subscribe .unforgive-form .form-control:focus {
+      outline: none;
+      box-shadow: none; }
+  #subscribe .unforgive-form .btn-submit {
+    background-color: transparent;
+    border: 2px solid #232222;
+    border-radius: 0px;
+    color: #EDEDED;
+    transition: all 0.2s ease-in-out; }
+    #subscribe .unforgive-form .btn-submit:hover {
+      background-color: #232222;
+      box-shadow: 2px 3px 4px #232222;
+      border-radius: 2px; }
+    @media screen and (max-width: 500px) {
+      #subscribe .unforgive-form .btn-submit {
+        display: block;
+        padding: 13px;
+        margin-top: 1em;
+        text-align: center;
         width: 100%; } }
-    #subscribe .unforgive-form .form-control {
-      border-radius: 0px;
-      border: 2px solid #232222;
-      width: 30em;
-      color: #262424;
-      background-color: transparent;
-      transition: all 0.2s ease-in-out; }
-      @media screen and (max-width: 500px) {
-        #subscribe .unforgive-form .form-control {
-          width: 22.5em; } }
-      #subscribe .unforgive-form .form-control:focus {
-        outline: none;
-        box-shadow: none; }
-    #subscribe .unforgive-form .btn-submit {
-      background-color: transparent;
-      border: 2px solid #232222;
-      border-radius: 0px;
-      color: #EDEDED;
-      transition: all 0.2s ease-in-out; }
-      #subscribe .unforgive-form .btn-submit:hover {
-        background-color: #232222;
-        box-shadow: 2px 3px 4px #232222;
-        border-radius: 2px; }
-      @media screen and (max-width: 500px) {
-        #subscribe .unforgive-form .btn-submit {
-          display: block;
-          padding: 13px;
-          margin-top: 1em;
-          text-align: center;
-          width: 100%; } }
 
-#team {
-  margin-top: 0px;
-  padding-top: 20px; }
-  #team h1 {
-    margin-bottom: 1.2em; }
-  #team .team-member {
-    margin: 20px; }
-    #team .team-member h4 {
-      text-decoration: underline;
-      padding-bottom: 2px; }
-      #team .team-member h4 span.name {
-        font-weight: bolder;
-        color: #FFF; }
-    #team .team-member .text-content {
-      width: 75%;
-      text-align: left;
-      margin: auto; }
+#team h1 {
+  margin-bottom: 1.2em; }
+
+#team .team-member {
+  margin: 20px; }
+  #team .team-member h4 {
+    text-decoration: underline;
+    padding-bottom: 2px; }
+    #team .team-member h4 span.name {
+      font-weight: bolder; }
+  #team .team-member .text-content {
+    text-align: left;
+    margin: auto; }
+    #team .team-member .text-content p {
+      font-size: 1em; }
 
 #contact {
   padding-bottom: 0px; }
@@ -172,7 +168,7 @@ p {
     #contact {
       margin-bottom: 0px; } }
   #contact .icons {
-    text-align: center; }
+    padding-left: 0px; }
     #contact .icons li {
       list-style: none;
       margin-right: 1em;
